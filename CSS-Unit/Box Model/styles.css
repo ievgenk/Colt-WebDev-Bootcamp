@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+/*First Row***/
+.row-1 td {
+    
+    width: 100px;
+    height: 100px;
+}
+ .td-1 {
+     border-right:1px solid black;
+     border-bottom: 1px solid black;}
+ .cell-2 {
+     border-bottom: 1px solid black;
+     }
+ .td-3 {
+    border-left:1px solid black;
+     border-bottom: 1px solid black;
+ }
+.row-2 td {
+   
+    width: 100px;
+    height: 100px;
+}
+.row-3 td {
+   
+    width: 100px;
+    height: 100px;
+}
+
+.bot-mid {
+   border-left:1px solid black; 
+    border-right:1px solid black;
+}

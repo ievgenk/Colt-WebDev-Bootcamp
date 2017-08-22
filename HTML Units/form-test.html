@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <h1>Register</h1>
+
+        <form>
+            <label for="fname">First Name:</label>
+            <input name="first" type="text" id="fname" placeholder="John" required>
+            <label for="lname">Last Name:</label>
+            <input name="last" type="text" id="lname" placeholder="Smith" required>
+        </form>
+
+        <form>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other">
+        </form>
+
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="your email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required placeholder="your password" inputmode="numeric" minlength="4"
+       maxlength="8" size="8">
+        </form>
+
+        <label for="bod">Birthday:</label>
+        <select id="bod">
+            <option >Month</option>
+        </select>
+
+        <select>
+            <option>Day</option>
+        </select>
+
+        <select>
+            <option>Year</option>
+        </select>
+    <form>
+        <label for="tac">I agree to the terms and conditions</label>
+        <input type="checkbox" id="tac">
+    </form>
+    <form>
+        <input type="submit">
+    </form>
+    </body>
+</html>
